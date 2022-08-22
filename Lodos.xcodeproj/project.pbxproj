@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045B72F228B2DF3100E0D82C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B72F128B2DF3100E0D82C /* AppDelegate.swift */; };
+		045B72F428B2DF3100E0D82C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B72F328B2DF3100E0D82C /* ViewController.swift */; };
+		045B72F728B2DF3100E0D82C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045B72F528B2DF3100E0D82C /* Main.storyboard */; };
+		045B72F928B2DF3400E0D82C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045B72F828B2DF3400E0D82C /* Assets.xcassets */; };
+		045B72FC28B2DF3400E0D82C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045B72FA28B2DF3400E0D82C /* LaunchScreen.storyboard */; };
+		045B730728B2DF3400E0D82C /* LodosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B730628B2DF3400E0D82C /* LodosTests.swift */; };
+		045B731228B2DF3400E0D82C /* LodosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B731128B2DF3400E0D82C /* LodosUITests.swift */; };
+		045B732128B2F9EF00E0D82C /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B731F28B2F9EF00E0D82C /* MovieTableViewCell.swift */; };
+		045B732228B2F9EF00E0D82C /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045B732028B2F9EF00E0D82C /* MovieTableViewCell.xib */; };
+		045B732628B3FF6800E0D82C /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B732528B3FF6800E0D82C /* CheckInternet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		045B730328B2DF3400E0D82C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045B72E628B2DF3100E0D82C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045B72ED28B2DF3100E0D82C;
+			remoteInfo = Lodos;
+		};
+		045B730E28B2DF3400E0D82C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045B72E628B2DF3100E0D82C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045B72ED28B2DF3100E0D82C;
+			remoteInfo = Lodos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045B72EE28B2DF3100E0D82C /* Lodos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lodos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045B72F128B2DF3100E0D82C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		045B72F328B2DF3100E0D82C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		045B72F628B2DF3100E0D82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045B72F828B2DF3400E0D82C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045B72FB28B2DF3400E0D82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		045B72FD28B2DF3400E0D82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045B730228B2DF3400E0D82C /* LodosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LodosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045B730628B2DF3400E0D82C /* LodosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodosTests.swift; sourceTree = "<group>"; };
+		045B730828B2DF3400E0D82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045B730D28B2DF3400E0D82C /* LodosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LodosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045B731128B2DF3400E0D82C /* LodosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodosUITests.swift; sourceTree = "<group>"; };
+		045B731328B2DF3400E0D82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045B731F28B2F9EF00E0D82C /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		045B732028B2F9EF00E0D82C /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		045B732528B3FF6800E0D82C /* CheckInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045B72EB28B2DF3100E0D82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B72FF28B2DF3400E0D82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B730A28B2DF3400E0D82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045B72E528B2DF3100E0D82C = {
+			isa = PBXGroup;
+			children = (
+				045B72F028B2DF3100E0D82C /* Lodos */,
+				045B730528B2DF3400E0D82C /* LodosTests */,
+				045B731028B2DF3400E0D82C /* LodosUITests */,
+				045B72EF28B2DF3100E0D82C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		045B72EF28B2DF3100E0D82C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045B72EE28B2DF3100E0D82C /* Lodos.app */,
+				045B730228B2DF3400E0D82C /* LodosTests.xctest */,
+				045B730D28B2DF3400E0D82C /* LodosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045B72F028B2DF3100E0D82C /* Lodos */ = {
+			isa = PBXGroup;
+			children = (
+				045B72F128B2DF3100E0D82C /* AppDelegate.swift */,
+				045B72F328B2DF3100E0D82C /* ViewController.swift */,
+				045B72F528B2DF3100E0D82C /* Main.storyboard */,
+				045B72F828B2DF3400E0D82C /* Assets.xcassets */,
+				045B72FA28B2DF3400E0D82C /* LaunchScreen.storyboard */,
+				045B72FD28B2DF3400E0D82C /* Info.plist */,
+				045B731F28B2F9EF00E0D82C /* MovieTableViewCell.swift */,
+				045B732028B2F9EF00E0D82C /* MovieTableViewCell.xib */,
+				045B732528B3FF6800E0D82C /* CheckInternet.swift */,
+			);
+			path = Lodos;
+			sourceTree = "<group>";
+		};
+		045B730528B2DF3400E0D82C /* LodosTests */ = {
+			isa = PBXGroup;
+			children = (
+				045B730628B2DF3400E0D82C /* LodosTests.swift */,
+				045B730828B2DF3400E0D82C /* Info.plist */,
+			);
+			path = LodosTests;
+			sourceTree = "<group>";
+		};
+		045B731028B2DF3400E0D82C /* LodosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				045B731128B2DF3400E0D82C /* LodosUITests.swift */,
+				045B731328B2DF3400E0D82C /* Info.plist */,
+			);
+			path = LodosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		045B72ED28B2DF3100E0D82C /* Lodos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045B731628B2DF3400E0D82C /* Build configuration list for PBXNativeTarget "Lodos" */;
+			buildPhases = (
+				045B72EA28B2DF3100E0D82C /* Sources */,
+				045B72EB28B2DF3100E0D82C /* Frameworks */,
+				045B72EC28B2DF3100E0D82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lodos;
+			productName = Lodos;
+			productReference = 045B72EE28B2DF3100E0D82C /* Lodos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		045B730128B2DF3400E0D82C /* LodosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045B731928B2DF3400E0D82C /* Build configuration list for PBXNativeTarget "LodosTests" */;
+			buildPhases = (
+				045B72FE28B2DF3400E0D82C /* Sources */,
+				045B72FF28B2DF3400E0D82C /* Frameworks */,
+				045B730028B2DF3400E0D82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045B730428B2DF3400E0D82C /* PBXTargetDependency */,
+			);
+			name = LodosTests;
+			productName = LodosTests;
+			productReference = 045B730228B2DF3400E0D82C /* LodosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		045B730C28B2DF3400E0D82C /* LodosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045B731C28B2DF3400E0D82C /* Build configuration list for PBXNativeTarget "LodosUITests" */;
+			buildPhases = (
+				045B730928B2DF3400E0D82C /* Sources */,
+				045B730A28B2DF3400E0D82C /* Frameworks */,
+				045B730B28B2DF3400E0D82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045B730F28B2DF3400E0D82C /* PBXTargetDependency */,
+			);
+			name = LodosUITests;
+			productName = LodosUITests;
+			productReference = 045B730D28B2DF3400E0D82C /* LodosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045B72E628B2DF3100E0D82C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					045B72ED28B2DF3100E0D82C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					045B730128B2DF3400E0D82C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 045B72ED28B2DF3100E0D82C;
+					};
+					045B730C28B2DF3400E0D82C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 045B72ED28B2DF3100E0D82C;
+					};
+				};
+			};
+			buildConfigurationList = 045B72E928B2DF3100E0D82C /* Build configuration list for PBXProject "Lodos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045B72E528B2DF3100E0D82C;
+			productRefGroup = 045B72EF28B2DF3100E0D82C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045B72ED28B2DF3100E0D82C /* Lodos */,
+				045B730128B2DF3400E0D82C /* LodosTests */,
+				045B730C28B2DF3400E0D82C /* LodosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045B72EC28B2DF3100E0D82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045B72FC28B2DF3400E0D82C /* LaunchScreen.storyboard in Resources */,
+				045B72F928B2DF3400E0D82C /* Assets.xcassets in Resources */,
+				045B732228B2F9EF00E0D82C /* MovieTableViewCell.xib in Resources */,
+				045B72F728B2DF3100E0D82C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B730028B2DF3400E0D82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B730B28B2DF3400E0D82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045B72EA28B2DF3100E0D82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045B72F428B2DF3100E0D82C /* ViewController.swift in Sources */,
+				045B732628B3FF6800E0D82C /* CheckInternet.swift in Sources */,
+				045B72F228B2DF3100E0D82C /* AppDelegate.swift in Sources */,
+				045B732128B2F9EF00E0D82C /* MovieTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B72FE28B2DF3400E0D82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045B730728B2DF3400E0D82C /* LodosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B730928B2DF3400E0D82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045B731228B2DF3400E0D82C /* LodosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		045B730428B2DF3400E0D82C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045B72ED28B2DF3100E0D82C /* Lodos */;
+			targetProxy = 045B730328B2DF3400E0D82C /* PBXContainerItemProxy */;
+		};
+		045B730F28B2DF3400E0D82C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045B72ED28B2DF3100E0D82C /* Lodos */;
+			targetProxy = 045B730E28B2DF3400E0D82C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		045B72F528B2DF3100E0D82C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045B72F628B2DF3100E0D82C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		045B72FA28B2DF3400E0D82C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045B72FB28B2DF3400E0D82C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045B731428B2DF3400E0D82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		045B731528B2DF3400E0D82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045B731728B2DF3400E0D82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L2TCTT3QB;
+				INFOPLIST_FILE = Lodos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mmt.Lodos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		045B731828B2DF3400E0D82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L2TCTT3QB;
+				INFOPLIST_FILE = Lodos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mmt.Lodos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		045B731A28B2DF3400E0D82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L2TCTT3QB;
+				INFOPLIST_FILE = LodosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mmt.LodosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lodos.app/Lodos";
+			};
+			name = Debug;
+		};
+		045B731B28B2DF3400E0D82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L2TCTT3QB;
+				INFOPLIST_FILE = LodosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mmt.LodosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lodos.app/Lodos";
+			};
+			name = Release;
+		};
+		045B731D28B2DF3400E0D82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L2TCTT3QB;
+				INFOPLIST_FILE = LodosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mmt.LodosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lodos;
+			};
+			name = Debug;
+		};
+		045B731E28B2DF3400E0D82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L2TCTT3QB;
+				INFOPLIST_FILE = LodosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mmt.LodosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lodos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045B72E928B2DF3100E0D82C /* Build configuration list for PBXProject "Lodos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045B731428B2DF3400E0D82C /* Debug */,
+				045B731528B2DF3400E0D82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045B731628B2DF3400E0D82C /* Build configuration list for PBXNativeTarget "Lodos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045B731728B2DF3400E0D82C /* Debug */,
+				045B731828B2DF3400E0D82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045B731928B2DF3400E0D82C /* Build configuration list for PBXNativeTarget "LodosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045B731A28B2DF3400E0D82C /* Debug */,
+				045B731B28B2DF3400E0D82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045B731C28B2DF3400E0D82C /* Build configuration list for PBXNativeTarget "LodosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045B731D28B2DF3400E0D82C /* Debug */,
+				045B731E28B2DF3400E0D82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045B72E628B2DF3100E0D82C /* Project object */;
+}
